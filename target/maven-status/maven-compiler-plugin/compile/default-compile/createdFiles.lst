@@ -1,0 +1,15 @@
+web\site\menu\right\RightMenu.class
+web\site\user\User.class
+web\site\user\UserStatus.class
+web\site\workfield\MainVerticalWorkField.class
+web\site\workfield\WorkingField.class
+web\site\header\HeaderUI.class
+web\site\menu\left\AccordionElementMenu.class
+web\site\workfield\leftverticalfield\ActiveSessionsField.class
+web\site\MyUI$MyUIServlet.class
+web\site\workfield\leftverticalfield\ActivityField.class
+web\site\MyUI.class
+web\site\user\UserService.class
+web\site\menu\right\UserForm.class
+web\site\user\Activity.class
+web\site\menu\left\Menu.class
