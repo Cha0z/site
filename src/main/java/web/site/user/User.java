@@ -2,13 +2,17 @@ package web.site.user;
 
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Objects;
 
-public class User implements Serializable,Cloneable {
+public class User implements Serializable, Cloneable {
     private Long id;
     private String name;
     private String surname;
-    private LocalDate lastSession;
+    private LocalDateTime lastDateAndTime;
+    private LocalDate lastSessionDate;
+    private LocalTime lastSessionTime;
     private UserStatus status;
     private Activity activity;
 
@@ -16,12 +20,6 @@ public class User implements Serializable,Cloneable {
     public User() {
     }
 
-    public User(long id, String name, String surname, LocalDate lastSession) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-        this.lastSession = lastSession;
-    }
 
     public Long getId() {
         return id;
@@ -47,12 +45,31 @@ public class User implements Serializable,Cloneable {
         this.surname = surname;
     }
 
-    public LocalDate getLastSession() {
-        return lastSession;
+
+    public LocalDateTime getLastDateAndTime() {
+        return lastDateAndTime;
     }
 
-    public void setLastSession(LocalDate lastSession) {
-        this.lastSession = lastSession;
+    public void setLastDateAndTime(LocalDateTime lastDateAndTime) {
+        this.lastDateAndTime = lastDateAndTime;
+        this.lastSessionDate = this.lastDateAndTime.toLocalDate();
+        this.lastSessionTime = this.lastDateAndTime.toLocalTime();
+    }
+
+    public LocalDate getLastSessionDate() {
+        return lastSessionDate;
+    }
+
+    public void setLastSessionDate(LocalDate lastSessionDate) {
+        this.lastSessionDate = lastSessionDate;
+    }
+
+    public LocalTime getLastSessionTime() {
+        return lastSessionTime;
+    }
+
+    public void setLastSessionTime(LocalTime lastSessionTime) {
+        this.lastSessionTime = lastSessionTime;
     }
 
     @Override
@@ -63,22 +80,29 @@ public class User implements Serializable,Cloneable {
         return Objects.equals(id, user.id) &&
                 Objects.equals(name, user.name) &&
                 Objects.equals(surname, user.surname) &&
-                Objects.equals(lastSession, user.lastSession);
+                Objects.equals(lastDateAndTime, user.lastDateAndTime) &&
+                Objects.equals(lastSessionDate, user.lastSessionDate) &&
+                Objects.equals(lastSessionTime, user.lastSessionTime) &&
+                status == user.status &&
+                activity == user.activity;
     }
-
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name, surname, lastSession);
+        return Objects.hash(id, name, surname, lastDateAndTime, lastSessionDate, lastSessionTime, status, activity);
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "id='" + id + '\'' +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", lastSession=" + lastSession +
+                ", lastDateAndTime=" + lastDateAndTime +
+                ", lastSessionDate=" + lastSessionDate +
+                ", lastSessionTime=" + lastSessionTime +
+                ", status=" + status +
+                ", activity=" + activity +
                 '}';
     }
 

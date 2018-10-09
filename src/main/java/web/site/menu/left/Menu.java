@@ -59,7 +59,7 @@ public class Menu extends VerticalLayout {
 
     private void configMenu() {
         this.setWidth("17em");
-        this.setHeight(100, Sizeable.UNITS_PERCENTAGE);
+        this.setHeight("100%");
         this.setId("Navigation_bar");
         this.setSpacing(false);
         this.setMargin(false);

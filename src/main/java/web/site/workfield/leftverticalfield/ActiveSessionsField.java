@@ -40,7 +40,7 @@ public class ActiveSessionsField extends VerticalLayout {
         searchUser.addValueChangeListener(e -> updateList());
         searchUser.setValueChangeMode(ValueChangeMode.LAZY);
 
-        grid.setColumns("id", "name", "surname", "lastSession", "status", "activity");
+        grid.setColumns("id", "name", "surname", "lastSessionDate", "status", "activity");
         grid.setSizeFull();
 
 
@@ -68,7 +68,7 @@ public class ActiveSessionsField extends VerticalLayout {
         secondLine.setStyleName(ValoTheme.LABEL_SMALL);
     }
 
-    public void updateList() {
+    private void updateList() {
         List<User> users = service.findAll(searchUser.getValue());
         grid.setItems(users);
 
