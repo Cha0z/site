@@ -4,6 +4,7 @@ import com.vaadin.server.ClassResource;
 import com.vaadin.shared.ui.MarginInfo;
 import com.vaadin.ui.*;
 import com.vaadin.ui.themes.ValoTheme;
+import web.site.workfield.chart.TimeChart;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 public class ActivityField extends VerticalLayout {
 
     List<String> timeList;
+    TimeChart timeChart = new TimeChart();
 
     public ActivityField() {
         timeList = Arrays.asList("12 am", "1 am", "2 am", "3 am", "4 am", "5 am", "6 am", "7 am", "8 am", "9 am", "10 am", "11 am"
@@ -45,16 +47,16 @@ public class ActivityField extends VerticalLayout {
         timeContainer.addComponents(timeBox, to, timeBox2);
         configTimeBox(timeBox, timeBox2);
 
-        Image dashboard = new Image(null, new ClassResource("/dashboard.png"));
+    //    Image chart = new Image(null, new ClassResource("/dashboard.png"));
 
 
 
         recentActivityField.addComponents(activityMessage, timeContainer);
 
 
-        this.addComponents(recentActivityField, dashboard);
+        this.addComponents(recentActivityField, chart);
         recentActivityField.setComponentAlignment(timeContainer,Alignment.MIDDLE_RIGHT);
-        this.setComponentAlignment(dashboard,Alignment.MIDDLE_CENTER);
+        this.setComponentAlignment(chart,Alignment.MIDDLE_CENTER);
 
 
     }
