@@ -38,6 +38,7 @@ public class UserForm extends VerticalLayout {
 
         addUser.setStyleName(ValoTheme.BUTTON_FRIENDLY);
         addAdvancedGroup.setStyleName(ValoTheme.BUTTON_BORDERLESS);
+       addUserButtons.addStyleName(ValoTheme.LAYOUT_HORIZONTAL_WRAPPING);
 
 
         adminPrivilege.setWidth("10em");

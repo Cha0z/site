@@ -25,8 +25,8 @@ public class WorkingField extends HorizontalLayout {
         leftContainer.addComponents(activityField, activeSessionsField);
         rightContainer.addComponent(rightMenu);
 
-        this.setExpandRatio(leftContainer, 0.8f);
-        this.setExpandRatio(rightContainer,0.20f);
+        this.setExpandRatio(leftContainer, 0.82f);
+        this.setExpandRatio(rightContainer,0.18f);
 
 
         leftContainer.setMargin(false);
