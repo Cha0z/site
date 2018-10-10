@@ -1,12 +1,13 @@
 package web.site.workfield.leftverticalfield;
 
 import com.vaadin.addon.charts.Chart;
-import com.vaadin.addon.charts.model.Configuration;
-import com.vaadin.addon.charts.model.DataSeries;
-import com.vaadin.addon.charts.model.DataSeriesItem;
-import com.vaadin.addon.charts.model.Legend;
+import com.vaadin.addon.charts.model.*;
+import com.vaadin.addon.charts.model.style.GradientColor;
+import com.vaadin.addon.charts.model.style.SolidColor;
 import com.vaadin.shared.ui.MarginInfo;
+import com.vaadin.shared.ui.colorpicker.Color;
 import com.vaadin.ui.*;
+import com.vaadin.ui.Label;
 import com.vaadin.ui.themes.ValoTheme;
 import web.site.user.UserService;
 
@@ -56,8 +57,9 @@ public class ActivityField extends VerticalLayout {
         timeBox2.addValueChangeListener(e -> updateChart());
 
 
-        
         updateChart();
+
+        chart.getConfiguration().getChart().setBackgroundColor(new SolidColor("#162D34"));
 
 
         recentActivityField.addComponents(activityMessage, timeContainer);
@@ -71,7 +73,7 @@ public class ActivityField extends VerticalLayout {
     }
 
     private void configActivityMessage(VerticalLayout activityMessage, Label firstLine, Label secondLine) {
-        activityMessage.setMargin(new MarginInfo(false, false, false, true));
+//        activityMessage.setMargin(new MarginInfo(false, false, false, true));
         activityMessage.setSpacing(false);
         firstLine.setStyleName(ValoTheme.LABEL_COLORED);
         firstLine.setStyleName(ValoTheme.LABEL_LARGE);
@@ -90,7 +92,7 @@ public class ActivityField extends VerticalLayout {
 
     private void configHorizontalField() {
         this.setSpacing(false);
-        this.setMargin(false);
+        this.setMargin(new MarginInfo(false, true));
     }
 
 
@@ -106,7 +108,7 @@ public class ActivityField extends VerticalLayout {
         Map<Integer, Integer> visitsUnsorted = new TreeMap<>(service.getNumberOfVisitsInHour(timeNumber1, timeNumber2));
 
 
-        visitor = new DataSeries();
+        visitor = new DataSeries("Visits");
         for (Map.Entry<Integer, Integer> entry : visitsUnsorted.entrySet()) {
             visitor.add(new DataSeriesItem(entry.getKey(), entry.getValue()));
         }
@@ -116,12 +118,27 @@ public class ActivityField extends VerticalLayout {
         conf.setSeries(visitor);
 
 
-        // chart.setConfiguration(conf);
+
         chart.drawChart();
+        conf.getxAxis().setType(AxisType.CATEGORY);
+
+        PlotOptionsAreaspline line = new PlotOptionsAreaspline();
+        line.setColor(new SolidColor("#08BBEE"));
+        GradientColor fillColor = GradientColor.createLinear(0, 0, 0, 1);
+        fillColor.addColorStop(0, new SolidColor("#bff0ff"));
+        fillColor.addColorStop(1, new SolidColor("#08bbee"));
+        line.setFillColor(fillColor);
+        visitor.setPlotOptions(line);
+/*
+        PlotOptionsArea plotArea = new PlotOptionsArea();
+
+        plotArea.setFillColor(fillColor);*/
+
 
 
         conf.getTitle().setText(null);
         conf.getLegend().setEnabled(false);
+     /*   conf.setPlotOptions(plotArea);*/
 
 
     }

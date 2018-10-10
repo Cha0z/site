@@ -117,7 +117,7 @@ public class UserService {
         firstIndex = getIndex(firstHourPoint, hours);
 
 
-        secondIndex = getIndex(secondHourPoint, hours);
+        secondIndex = getIndex(secondHourPoint, hours) + 1;
 
 
         hours = hours.subList(firstIndex, secondIndex);
