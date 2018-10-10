@@ -38,6 +38,7 @@ public class ActivityField extends VerticalLayout {
 
         Label firstLine = new Label("Recent ActivityField");
         Label secondLine = new Label("number of active users on the systems");
+        activityMessage.setMargin(new MarginInfo(true,false));
 
         activityMessage.addComponents(firstLine, secondLine);
 
@@ -45,7 +46,7 @@ public class ActivityField extends VerticalLayout {
 
 
         HorizontalLayout timeContainer = new HorizontalLayout();
-        timeContainer.setMargin(new MarginInfo(false, true, false, false));
+       // timeContainer.setMargin(new MarginInfo(false, true, false, false));
 
         Label to = new Label("to");
 
