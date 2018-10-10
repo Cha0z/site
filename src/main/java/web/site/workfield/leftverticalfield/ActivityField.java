@@ -4,6 +4,7 @@ import com.vaadin.addon.charts.Chart;
 import com.vaadin.addon.charts.model.Configuration;
 import com.vaadin.addon.charts.model.DataSeries;
 import com.vaadin.addon.charts.model.DataSeriesItem;
+import com.vaadin.addon.charts.model.Legend;
 import com.vaadin.shared.ui.MarginInfo;
 import com.vaadin.ui.*;
 import com.vaadin.ui.themes.ValoTheme;
@@ -18,7 +19,7 @@ public class ActivityField extends VerticalLayout {
     //  private TimeChart timeChart = new TimeChart();
     private ComboBox<String> timeBox = new ComboBox<>();
     private ComboBox<String> timeBox2 = new ComboBox<>();
-    private Chart chart;
+    private Chart chart = new Chart();
 
     private DataSeries visitor;
 
@@ -53,9 +54,10 @@ public class ActivityField extends VerticalLayout {
         timeBox2.setValue(timeList.get(18));
         timeBox.addValueChangeListener(e -> updateChart());
         timeBox2.addValueChangeListener(e -> updateChart());
+
+
+        
         updateChart();
-
-
 
 
         recentActivityField.addComponents(activityMessage, timeContainer);
@@ -93,8 +95,9 @@ public class ActivityField extends VerticalLayout {
 
 
     private void updateChart() {
-        chart = new Chart();
-        Configuration conf = chart.getConfiguration();
+
+        // Configuration conf = chart.getConfiguration();
+
         Optional<String> time1 = Optional.ofNullable(timeBox.getValue());
         Optional<String> time2 = Optional.ofNullable(timeBox2.getValue());
         Integer timeNumber1 = getTimeNumber(time1);
@@ -108,10 +111,17 @@ public class ActivityField extends VerticalLayout {
             visitor.add(new DataSeriesItem(entry.getKey(), entry.getValue()));
         }
 
-        conf.addSeries(visitor);
+        Configuration conf = chart.getConfiguration();
+
+        conf.setSeries(visitor);
+
+
+        // chart.setConfiguration(conf);
+        chart.drawChart();
 
 
         conf.getTitle().setText(null);
+        conf.getLegend().setEnabled(false);
 
 
     }

@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="091cbce3-7f57-4ae6-9fdc-05bc28957b09" name="Default Changelist" comment="" />
+    <list default="true" id="091cbce3-7f57-4ae6-9fdc-05bc28957b09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/site/workfield/leftverticalfield/ActivityField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/site/workfield/leftverticalfield/ActivityField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_shared.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_shared.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/lang/AppWidgetset__EntryMethodHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/lang/AppWidgetset__EntryMethodHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/FormPanel_IFrameTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/FormPanel_IFrameTemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/MenuBar_Resources_default_InlineClientBundleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/MenuBar_Resources_default_InlineClientBundleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_DraggableTemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_DraggableTemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/addon/charts/client/HighchartResources_default_InlineClientBundleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/addon/charts/client/HighchartResources_default_InlineClientBundleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/7E6A7E6547D1EB380D947C7335EB9824.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/7E6A7E6547D1EB380D947C7335EB9824.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.devmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.devmode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.nocache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.nocache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/C81F8CA7CA7012F31BDE883DF6C99E61.cache.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/C81F8CA7CA7012F31BDE883DF6C99E61.cache.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/compilation-mappings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/compilation-mappings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/1.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/1.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/2.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/2.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/3.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/3.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/4.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/4.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/5.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/5.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/6.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/6.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/7.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/7.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/8.cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/7E6A7E6547D1EB380D947C7335EB9824/8.cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/AppWidgetset/rpcPolicyManifest/manifest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/AppWidgetset/rpcPolicyManifest/manifest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/web/site/workfield/leftverticalfield/ActivityField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/web/site/workfield/leftverticalfield/ActivityField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,6 +138,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="917171809">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="197" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="197" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -113,10 +178,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/site/user/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="102">
               <caret line="119" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <element signature="e#4953#4954#0" expanded="true" />
@@ -126,11 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/leftverticalfield/ActivityField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="262">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,10 +324,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="975" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -283,67 +348,6 @@
               <item name="site" type="b2602c69:ProjectViewProjectNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="workfield" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="workfield" type="462c0819:PsiDirectoryNode" />
-              <item name="leftverticalfield" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -427,17 +431,18 @@
       <workItem from="1538765380656" duration="9989000" />
       <workItem from="1538842329949" duration="28626000" />
       <workItem from="1538925718658" duration="14549000" />
+      <workItem from="1539121978214" duration="4666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56155000" />
+    <option name="totallyTimeSpent" value="60821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.15618336" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.15838926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,8 +452,8 @@
       <window_info id="Web" order="7" sideWeight="0.50130206" side_tool="true" weight="0.26627603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328125" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21691974" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3383948" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27785236" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15167785" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -465,7 +470,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.38379532" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.38322148" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
@@ -637,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -647,18 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-          <folding>
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1647#1648#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,86 +674,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/chart/ChartsData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2910#2911#0" expanded="true" />
-            <element signature="e#2948#2949#0" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3096#3097#0" expanded="true" />
-            <element signature="e#3131#3132#0" expanded="true" />
-            <element signature="e#3169#3170#0" expanded="true" />
-            <element signature="e#3205#3206#0" expanded="true" />
-            <element signature="e#3244#3245#0" expanded="true" />
-            <element signature="e#3284#3285#0" expanded="true" />
-            <element signature="e#3327#3328#0" expanded="true" />
-            <element signature="e#3366#3367#0" expanded="true" />
-            <element signature="e#3408#3409#0" expanded="true" />
-            <element signature="e#3447#3448#0" expanded="true" />
-            <element signature="e#3489#3490#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="e#3572#3573#0" expanded="true" />
-            <element signature="e#3611#3612#0" expanded="true" />
-            <element signature="e#3653#3654#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <element signature="e#3826#3827#0" expanded="true" />
-            <element signature="e#3947#3948#0" expanded="true" />
-            <element signature="e#3998#3999#0" expanded="true" />
-            <element signature="e#4121#4122#0" expanded="true" />
-            <element signature="e#4171#4172#0" expanded="true" />
-            <element signature="e#4280#4281#0" expanded="true" />
-            <element signature="e#4324#4325#0" expanded="true" />
-            <element signature="e#4431#4432#0" expanded="true" />
-            <element signature="e#4476#4477#0" expanded="true" />
-            <element signature="e#4585#4586#0" expanded="true" />
-            <element signature="e#4629#4630#0" expanded="true" />
-            <element signature="e#4739#4740#0" expanded="true" />
-            <element signature="e#4782#4783#0" expanded="true" />
-            <element signature="e#4890#4891#0" expanded="true" />
-            <element signature="e#4934#4935#0" expanded="true" />
-            <element signature="e#5044#5045#0" expanded="true" />
-            <element signature="e#5087#5088#0" expanded="true" />
-            <element signature="e#5193#5194#0" expanded="true" />
-            <element signature="e#5237#5238#0" expanded="true" />
-            <element signature="e#5275#5276#0" expanded="true" />
-            <element signature="e#5316#5317#0" expanded="true" />
-            <element signature="e#5353#5354#0" expanded="true" />
-            <element signature="e#5390#5391#0" expanded="true" />
-            <element signature="e#5431#5432#0" expanded="true" />
-            <element signature="e#5475#5476#0" expanded="true" />
-            <element signature="e#5974#5975#0" expanded="true" />
-            <element signature="e#6011#6012#0" expanded="true" />
-            <element signature="e#6043#6044#0" expanded="true" />
-            <element signature="e#6078#6079#0" expanded="true" />
-            <element signature="e#6115#6116#0" expanded="true" />
-            <element signature="e#6155#6156#0" expanded="true" />
-            <element signature="e#6195#6196#0" expanded="true" />
-            <element signature="e#6236#6237#0" expanded="true" />
-            <element signature="e#62740#62741#0" expanded="true" />
-            <element signature="e#62771#62772#0" expanded="true" />
-            <element signature="e#62875#62876#0" expanded="true" />
-            <element signature="e#62907#62908#0" expanded="true" />
-            <element signature="e#63286#63287#0" expanded="true" />
-            <element signature="e#63320#63321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/chart/TimeChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/chart/ChartsData.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/chart/TimeChart.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -771,23 +683,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/leftverticalfield/ActivityField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/web/site/user/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="102">
           <caret line="119" selection-start-line="119" selection-end-line="119" />
           <folding>
             <element signature="e#4953#4954#0" expanded="true" />
             <element signature="e#5020#5021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-charts/4.0.5/vaadin-charts-4.0.5.jar!/com/vaadin/addon/charts/Chart.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="160" column="16" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+          <folding>
+            <element signature="e#7412#7413#0" expanded="true" />
+            <element signature="e#7467#7468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-charts/4.0.5/vaadin-charts-4.0.5.jar!/com/vaadin/addon/charts/model/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/site/workfield/leftverticalfield/ActivityField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
